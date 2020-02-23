@@ -48,3 +48,21 @@ print('Type array "b": ', type(b))
 c= b.astype(np.float32)
 print('Array "c" ', c)
 print('Type array "c": ', type(c))
+
+print(h)
+
+#Create an array from a list
+mylist = [1,2,3,4]
+numpy_array = np.array(mylist)
+print('Array: ', numpy_array)
+
+numpy_array = np.array([1,2,3,4])
+print('Array: ', numpy_array)
+
+print(h)
+
+row1 = [2,4,6,8]
+row2 = [1,3,5,7]
+numpy_array = np.array([row1, row2])
+print('Array: ', numpy_array)
+print('Shape: ', numpy_array.shape)
